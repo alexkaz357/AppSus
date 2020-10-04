@@ -1,0 +1,37 @@
+.todo-list {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  background: white;
+  color: black;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.todo-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 100%;
+  border-bottom: 1px black solid;
+}
+
+.todo-list-item:hover {
+  cursor: pointer;
+  color: darkred;
+}
+
+.todo-checked {
+  text-decoration: line-through;
+  color: darkgray;
+}
+
+.date-completed {
+  font-size: 0.7rem;
+  text-decoration: none;
+  font-weight: bold;
+}
