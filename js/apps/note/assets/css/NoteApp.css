@@ -5,14 +5,13 @@
   height: 100%;
   align-items: center;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(#f3f3f3, lightblue);
 }
 
 .note-category {
   color: darkgray;
   display: block;
   font-size: 2rem;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto', sans-serif;
   align-self: flex-start;
   margin-top: 1rem;
   margin-left: 1rem;

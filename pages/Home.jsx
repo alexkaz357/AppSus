@@ -4,12 +4,9 @@ export const Home = () => {
   return (
     <section className='home-page'>
       <div className='homepage-info'>
-        <img src='./img/appsus.png' alt='' />
         <div className='homepage-title'>
-          <div>APPSUS</div>
-          <div>
-            your ultimate work place<span style={{ color: 'darkcyan' }}>.</span>
-          </div>
+          <h2>Welcome to AppSus</h2>
+          <h3>Your ultimate work space<span style={{ color: 'darkcyan' }}>.</span></h3>
         </div>
       </div>
       <div className='homepage-icons'>

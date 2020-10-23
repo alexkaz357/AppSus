@@ -98,7 +98,7 @@ export class Note extends React.Component {
         <AddNote onAddNote={this.onAddNote} />
         {pinnedNotes && (
           <React.Fragment>
-            <h1 className='note-category'>pinned</h1>
+            <h1 className='note-category'>Pinned</h1>
             <NoteList
               notes={pinnedNotes}
               onNoteDelete={this.onDeleteNote}
@@ -115,7 +115,7 @@ export class Note extends React.Component {
         )}
         {otherNotes && (
           <React.Fragment>
-            <h1 className='note-category'>other</h1>
+            <h1 className='note-category'>Other</h1>
             <NoteList
               notes={otherNotes}
               onNoteDelete={this.onDeleteNote}
